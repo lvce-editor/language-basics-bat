@@ -1,0 +1,12 @@
+{
+  "id": "builtin.language-basics-bat",
+  "name": "Language Basics Bat",
+  "description": "Provides syntax highlighting and bracket matching in Windows batch files.",
+  "languages": [
+    {
+      "id": "bat",
+      "extensions": [".bat", ".cmd"],
+      "tokenize": "src/tokenizeBat.js"
+    }
+  ]
+}
